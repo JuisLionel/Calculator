@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+.casio-logo {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.lcd-font {
+  font-family: var(--font-digital-7), sans-serif;
+  font-weight: 800;
+}
+
+img,
+a {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+body {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
